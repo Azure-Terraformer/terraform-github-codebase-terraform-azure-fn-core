@@ -17,3 +17,6 @@ variable "additional_tags" {
   type = map(string)
   default = {}
 }
+variable "retention_in_days" {
+  type = number
+}

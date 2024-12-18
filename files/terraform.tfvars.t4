@@ -1,3 +1,4 @@
-primary_location = "westus3"
-os_type          = "Linux"
-sku_name         = "Y1"
+primary_location  = "westus3"
+os_type           = "Linux"
+sku_name          = "Y1"
+retention_in_days = 1

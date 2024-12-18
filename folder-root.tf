@@ -1,6 +1,7 @@
 locals {
   root_folder_files = [
     "main.tf",
+    "observability.tf",
     "regions.tf",
     "terraform.tfvars",
     "variables.tf",
