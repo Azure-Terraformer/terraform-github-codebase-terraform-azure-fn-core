@@ -1,4 +1,4 @@
-primary_location  = "westus3"
-os_type           = "Linux"
-sku_name          = "Y1"
-retention_in_days = 30
+primary_location  = "${primary_location}"
+os_type           = "${os_type}"
+sku_name          = "${sku_name}"
+retention_in_days = ${retention_in_days}
