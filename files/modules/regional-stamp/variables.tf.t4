@@ -13,3 +13,9 @@ variable "sku_name" {
 variable "tags" {
   type = map(string)
 }
+variable "terraform_identity" {
+  type = object({
+    tenant_id = string
+    object_id = string
+  })
+}
