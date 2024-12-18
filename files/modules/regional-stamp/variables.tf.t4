@@ -22,3 +22,6 @@ variable "terraform_identity" {
     object_id = string
   })
 }
+variable "secrets" {
+  type = map(string)
+}
