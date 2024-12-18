@@ -1,0 +1,12 @@
+
+module "region_stamp_primary" {
+
+  source = "./modules/regional-stamp"
+
+  location = var.location
+  name     = "${var.application_name}-${var.environment_name}-${var.location}"
+  os_type  = var.os_type
+  sku_name = var.sku_name
+  tags     = local.all_tags
+
+}
