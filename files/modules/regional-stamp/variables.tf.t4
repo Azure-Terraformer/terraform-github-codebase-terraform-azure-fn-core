@@ -4,6 +4,9 @@ variable "location" {
 variable "name" {
   type = string
 }
+variable "number" {
+  type = number
+}
 variable "os_type" {
   type = string
 }
