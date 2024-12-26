@@ -6,4 +6,4 @@ Additionally, the module configures environment-specific Terraform variable file
 
 The root module establishes a Log Analytics Workspace, an Application Insights instance, and a Key Vault, with the Application Insights secret shared across regional stamps to enable consistent monitoring for all Azure Functions. 
 
-By managing these configurations through Terraform and committing them to the GitHub repository, the module ensures consistent, repeatable, and secure deployments of Azure infrastructure, seamlessly integrating within the GitHub AT-AT framework for efficient automation of Terraform and Azure-based projects.
+By provisioning these configurations through Terraform and committing them to the GitHub repository, the module ensures consistent, repeatable, and secure deployments of Azure infrastructure, seamlessly integrating within the GitHub AT-AT framework for efficient automation of Terraform and Azure-based projects.
