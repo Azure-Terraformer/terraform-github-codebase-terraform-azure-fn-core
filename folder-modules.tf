@@ -1,5 +1,6 @@
 locals {
   modules_folder_files = [
+    "eventgrid.tf",
     "keyvault.tf",
     "main.tf",
     "variables.tf",
